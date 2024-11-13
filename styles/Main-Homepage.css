@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Imprima&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+  
+body{
+    font-family: "Imprima", serif;
+    font-size: 1rem;
+    color: rgb(49, 49, 49);
+    margin-inline: 2.5rem;
+}
+.main-section{
+    height: 200vh;
+    background-color: #ffc423;
+}
+.title-section{
+    padding-top: 6rem;
+    height: 90vh;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 5px 16px hsla(220, 32%, 8%, .3);
+    border-bottom: 2px dashed black;
+}
+.welcome{
+    display: block;
+    height: 12.5rem;
+    padding-top: 6rem;
+}
+.welcome h5,.welcome h1{
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    
+}
+.welcome h5{
+    font-size: 30px;
+    margin-bottom: .5rem;
+    text-shadow: 1px 5px #fff3da;
+}
+.welcome h1{
+    font-size: 65px;
+    transition: all .2s ease-out;
+}
+.welcome h1:hover{
+    letter-spacing:7px;
+    font-size: 67px;
+    color: #ffc72d;
+    text-shadow: 1px 3px 5px #5a5a5a;
+}
+.title-qoute{
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    text-shadow: 1px 15px #fff3da;
+}
+.CatFace{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 90;
+}
+.paws{
+    position: relative;
+    padding-top: 8.1rem;
+    width: 9rem;
+}
+
+/*=====FOR SMALL DEVICES======*/
+@media screen and (max-width: 1110px) {
+    
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+  
+body{
+    font-family: "Imprima", serif;
+    font-size: 1rem;
+    margin-inline: 2rem;
+}
+.title-section{
+    padding-top: 6rem;
+    height: 90vh;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 5px 16px hsla(0, 0%, 100%, 0.3);
+    border-bottom: 2px dashed black;
+}
+}
+
+@media screen and (max-width:680px){
+    body{
+        font-family: "Imprima", serif;
+        font-size: 1rem;
+        margin-inline: 1.5rem;
+    }
+    .CatFace{
+        margin-top: 2rem;
+    }
+    .Catface{
+        width: 15.7rem;
+    }
+    .paws{
+        padding-top: 7.6rem;
+        width: 7rem;
+    }
+    .title-qoute{
+        font-size: 25px;
+    }
+
+}
+
+/*-FOR MOBILE DEVICES-*/
+@media screen and (max-width:550px){
+    .title-section{
+        margin-top: 5rem;
+        height: 70vh;
+    }
+    .CatFace{
+        margin-top: 2.7rem;
+    }
+    .Catface{
+        width: 14.7rem;
+    }
+    .paws{
+       display: none;
+    }
+    .title-qoute{
+        font-size: 20px;
+    }
+
+
+}
+
+@media screen and (max-width:450px){
+    .title-section{
+        margin-top: 2rem;
+    }
+    .CatFace{
+        margin-top: 2.7rem;
+    }
+    .Catface{
+        width: 14.7rem;
+    }
+    .paws{
+        display: none;
+    }
+    .title-qoute{
+        font-size: 18px;
+    }
+    .welcome h1{
+        font-size: 50px;
+    }
+    .welcome h5{
+        font-size: 30px;
+    }
+
+}
+
+
+
+
+
